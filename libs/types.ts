@@ -9,6 +9,9 @@ export type SocialMediaLinksProps = {
 export type SectionTitleProps = {
   number: string;
   title: string;
+  numberColor?: string;
+  titleColor?: string;
+  lineColor?: string;
 };
 
 // Featured Project Card

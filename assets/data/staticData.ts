@@ -12,17 +12,16 @@ export const staticData = {
     ]
   },
   jumbotron: {
-    preName: 'Hi, my name is',
-    name: 'Muhammad Iqbal.',
-    shortDesc: 'I build things for the web.',
-    quickDesc: "I'm a web developer with serious passion in building exceptional digital experiences focused on creating intuitive and dynamic user experiences.",
+    // preName: 'Hi, my name is',
+    name: 'Chelum',
+    shortDesc: 'Crafted for your desire',
+    quickDesc: "Handcrafted chocolate inspired by Sarawak's rich heritage and bold flavors.",
   },
   about: {
     paragraphs: [
-      "Hello! My name is Iqbal and I love making things live on the internet. My interest in web development began in 2020 when I was required to use internal web-based applications that were not user-friendly, not integrated with each other with a less aesthetic appearance in my job as a customer service at a private bank company.",
-      "That sense of difficulty made me curious to death and finally decided to delve deeper into the world of web development starting with learning what the internet, website, HTML and CSS are!",
-      "Fast forward to today, I already have experience as a freelancer and also working in a start-up company. My main focus now is on building accessible, inclusive products and digital experiences for various clients/companies.",
-      "Here are a few technologies I’ve been working with recently:"
+      "CHELUM represents the pinnacle of Malaysian chocolate craftsmanship, where traditional flavors meet modern chocolate artistry. Our name reflects our commitment to excellence and our deep respect for local ingredients and heritage.",
+      "Each of our five signature creations tells a unique story, blending premium chocolate with distinctive Malaysian flavors. From the crunch of traditional Tebaloi to the warmth of spices, we celebrate the rich tapestry of Malaysian taste in every bar.",
+      "Our master chocolatiers source only the finest ingredients, working with sustainable local farms to create chocolate that honors both tradition and innovation. Every bar is a testament to our dedication to quality and authenticity.",
     ],
     technologies: [
       { name: 'PHP', url: 'https://www.php.net/' },

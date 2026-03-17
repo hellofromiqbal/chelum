@@ -31,7 +31,7 @@ export default function Header() {
       animate={hideNavbar ? 'hidden' : 'visible'}
     >
       <nav className='flex justify-between items-center h-16 px-5 md:px-10 lg:px-20 bg-navy'>
-        <Link href={"#jumbotron"} className='text-2xl md:text-3xl text-primaryGreen font-semibold'>MI.</Link>
+        <Link href={"#jumbotron"} className='text-2xl md:text-3xl text-slate-100 font-semibold'>CH.</Link>
         <HamburgerMenu checked={hamburgerMenu} onClick={handleHamburgerMenu}/>
         <div className='hidden md:block'>
           <NavList/>
