@@ -2,7 +2,7 @@ import About from "@/components/About/About";
 import Contact from "@/components/Contact/Contact";
 import Experience from "@/components/Experience/Experience";
 import Jumbotron from "@/components/Jumbotron/Jumbotron";
-import Projects from "@/components/Projects/Projects";
+import Products from "@/components/Products/Products";
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
       <Jumbotron />
       <About />
       <Experience />
-      <Projects />
+      <Products />
       <Contact />
     </>
   );

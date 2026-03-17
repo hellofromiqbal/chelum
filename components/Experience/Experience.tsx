@@ -1,6 +1,6 @@
 'use client'
 
-import SectionTitle from '@/components/SectionTitle/SectionTitle';
+// import SectionTitle from '@/components/SectionTitle/SectionTitle';
 import Tabs from './Tabs/Tabs';
 import { motion } from 'framer-motion';
 import { motionProps } from '@/helper/framerMotion';

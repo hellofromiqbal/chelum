@@ -9,9 +9,9 @@ import { motion } from 'framer-motion';
 import { motionProps } from '@/helper/framerMotion';
 import { firaCode } from '@/libs/font';
 
-export default function Projects() {
+export default function Products() {
   return (
-    <section id='projects' className="py-10 md:pt-10 md:pb-20 flex flex-col gap-6 max-w-6xl mx-auto px-5 md:px-24 lg:px-20">
+    <section id='products' className="py-10 md:pt-10 md:pb-20 flex flex-col gap-6 max-w-6xl mx-auto px-5 md:px-24 lg:px-20">
       <motion.div className='relative' {...motionProps(50, .3, .3)}>
         <SectionTitle number='03.' title='Products'/>
       </motion.div>
@@ -45,6 +45,16 @@ export default function Projects() {
               </div>
             ))}
           </div>
+          <motion.div
+            className="flex justify-center md:text-lg text-slate-100"
+            { ...motionProps(-20, .3, .3) }
+          >
+            <Link
+              href={"/https://www.instagram.com/my.chelum/"}
+              target='_blank'
+              className='hover:text-slate-300 transition-all'
+            >View more on Instagram →</Link>
+          </motion.div>
         </div>
       </div>
     </section>

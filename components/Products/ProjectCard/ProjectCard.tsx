@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function ProjectCard({ product } : { product: ProductType }) {
   return (
-    <div className='h-125 md:min-h-125 grid gap-0 grid-rows-[2fr_1fr] rounded-md shadow-lg cursor-pointer overflow-hidden'>
+    <div className='h-125 md:min-h-125 grid gap-0 grid-rows-[2fr_1fr] rounded-md shadow-lg overflow-hidden'>
       <div className='bg-red-200 h-full md:h-full relative'>
         <Image 
           src={product.imgUrl} 

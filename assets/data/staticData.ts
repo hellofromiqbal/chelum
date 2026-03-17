@@ -6,21 +6,16 @@ import TiongDelite from '@/assets/images/products/product_tiong_delite2.webp';
 import DubaiChewyCookies from '@/assets/images/products/dubai_chewy_cookies.jpg';
 import BeHisPralineChocolate from '@/assets/images/products/behis_praline_chocolate.jpg';
 import ChocolateDatesWithAlmond from '@/assets/images/products/chocolate_dates_with_almond.jpg';
-// import Pokemon from '@/assets/images/projects/pokemon.png';
-// import Sphere from '@/assets/images/projects/sphere.png';
-// import Movosite from '@/assets/images/projects/movosite.jpg';
 
 export const staticData = {
   header: {
     navLinks: [
       { name: 'About', url: '#about' },
-      { name: 'Experience', url: '#experience' },
-      { name: 'Projects', url: '#projects' },
+      { name: 'Products', url: '#products' },
       { name: 'Contact', url: '#contact' },
     ]
   },
   jumbotron: {
-    // preName: 'Hi, my name is',
     name: 'Chelum',
     shortDesc: 'Crafted for your desire',
     quickDesc: "Handcrafted chocolate inspired by Sarawak's rich heritage and bold flavors.",
@@ -31,18 +26,6 @@ export const staticData = {
       "Each of our five signature creations tells a unique story, blending premium chocolate with distinctive Malaysian flavors. From the crunch of traditional Tebaloi to the warmth of spices, we celebrate the rich tapestry of Malaysian taste in every bar.",
       "Our master chocolatiers source only the finest ingredients, working with sustainable local farms to create chocolate that honors both tradition and innovation. Every bar is a testament to our dedication to quality and authenticity.",
     ],
-    technologies: [
-      { name: 'PHP', url: 'https://www.php.net/' },
-      { name: 'JavaScript (ES6+)', url: 'https://developer.mozilla.org/en-US/docs/Web/javascript' },
-      { name: 'React.js', url: 'https://react.dev/' },
-      { name: 'Node.js', url: 'https://nodejs.org/en' },
-      { name: 'Next.js', url: 'https://nextjs.org/' },
-      { name: 'Express.js', url: 'https://expressjs.com/' },
-      { name: 'TypeScript', url: 'https://www.typescriptlang.org/' },
-      { name: 'TailwindCSS', url: 'https://tailwindcss.com/' },
-      { name: 'MySQL', url: 'https://www.mysql.com/' },
-      { name: 'MongoDB', url: 'https://www.mongodb.com/' }
-    ]
   },
   experience: [
     {
