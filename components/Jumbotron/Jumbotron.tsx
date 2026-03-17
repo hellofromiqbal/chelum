@@ -7,7 +7,7 @@ import { motionProps } from '@/helper/framerMotion';
 
 export default function Jumbotron() {
   return (
-    <section id='jumbotron' className="-mt-16 min-h-screen md:min-h-[75vh] 2xl:min-h-[80vh] flex bg-[url('/chelum_display2.png')] bg-cover bg-no-repeat relative">
+    <section id='jumbotron' className="-mt-16 min-h-svh md:min-h-[75svh] 2xl:min-h-[80svh] flex bg-[url('/chelum_display2.png')] bg-cover bg-no-repeat relative">
       <div className="absolute inset-0 bg-navy/70"></div>
       <div className="flex flex-col justify-end md:justify-center gap-6 max-w-6xl mx-auto px-5 md:px-24 lg:px-0 lg:w-1/2 pb-10 md:pb-0">
         <div className="flex flex-col gap-0">
