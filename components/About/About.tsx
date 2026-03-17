@@ -1,14 +1,11 @@
 'use client'
 
-// import Link from 'next/link';
 import Image from 'next/image';
 import lazeezSpice from "@/assets/images/products/product_lazeezspice.webp";
 import SectionTitle from '../SectionTitle/SectionTitle';
 import { staticData } from '@/assets/data/staticData';
-// import { FaCaretRight } from "react-icons/fa";
 import { motion } from 'framer-motion';
 import { motionProps } from '@/helper/framerMotion';
-// import { firaCode } from '@/libs/font';
 
 export default function About() {
   return (

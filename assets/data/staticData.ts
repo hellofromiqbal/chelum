@@ -6,6 +6,7 @@ import TiongDelite from '@/assets/images/products/product_tiong_delite2.webp';
 import DubaiChewyCookies from '@/assets/images/products/dubai_chewy_cookies.jpg';
 import BeHisPralineChocolate from '@/assets/images/products/behis_praline_chocolate.jpg';
 import ChocolateDatesWithAlmond from '@/assets/images/products/chocolate_dates_with_almond.jpg';
+import { Award, Heart, Sparkles } from 'lucide-react';
 
 export const staticData = {
   header: {
@@ -27,44 +28,22 @@ export const staticData = {
       "Our master chocolatiers source only the finest ingredients, working with sustainable local farms to create chocolate that honors both tradition and innovation. Every bar is a testament to our dedication to quality and authenticity.",
     ],
   },
-  experience: [
+  features: [
     {
-      tabName: 'edbot.ai',
-      role: 'Frontend Engineer',
-      company: 'Solve Education!',
-      period: 'Aug 2024 - Present',
-      jobDesc: [
-        "Develop features with 98%+ accuracy in design and functionality at each milestone.",
-        "Maintain Jest unit test coverage above 80% to ensure stability and code quality,",
-        "Deploy each feature to production on time with a 100% delivery rate,",
-        "Collaborate with the backend team to maintain 99% uptime and seamless API integration,",
-        "Conduct code reviews for 10+ pull requests per week to ensure best practices are applied,",
-        "Monitor and fix bugs with a 95%+ resolution rate to ensure cross-device and browser compatibility."
-      ]
+      icon: Heart,
+      title: "Passion & Craft",
+      description: "Every creation is made with love and dedication by our master chocolatiers",
     },
     {
-      tabName: 'Gikslab',
-      role: 'Frontend Developer',
-      company: 'Gikslab Talenta Internasional',
-      period: 'Jan - Aug 2023',
-      jobDesc: [
-        "Developed a robust time tracking feature with React.js and React-Redux, ensuring compliance with the 8-hour workday requirement,",
-        "Contributed to migrating the codebase to Next.js, resulting in significant SEO improvements and optimizations,",
-        "Implemented the company's freelance task manager feature, improving task completion efficiency by 20%",
-        "Provide a subsidiary landing page using Next.js, resulting in a 25% increase in traffic."
-      ]
+      icon: Award,
+      title: "Award-Winning",
+      description: "Recognized globally for excellence in chocolate artistry and innovation",
     },
     {
-      tabName: 'Cheedles',
-      role: 'Web Developer',
-      company: 'Cheedles Indonesia',
-      period: 'Mar - Apr 2022',
-      jobDesc: [
-        "Developed a minimalist landing page with HTML, CSS, Bootstrap, and Vanilla JavaScript, cutting Linktree SAAS subscription costs by 100% per month,",
-        "Integrated the landing page with Google Tag Manager, achieving a 90% code efficiency rate for seamless social media pixel integration,",
-        "Orchestrated the integration of Google Tag Manager with Google Analytics 4, enabling meticulous tracking of social media ad-generated traffic and visitor engagement with CTAs, utilized at 100% by the owner for sales strategy optimization.",
-      ]
-    }
+      icon: Sparkles,
+      title: "Premium Ingredients",
+      description: "Only the finest single-origin cacao beans from sustainable farms worldwide",
+    },
   ],
   products: [
     {
