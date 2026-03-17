@@ -14,7 +14,7 @@ export default function Tabs() {
         {staticData.experience.map((exp, index: number) => (
           <li key={exp.tabName}>
             <button
-              className={`px-5 py-2 w-full text-start border-b-2 md:border-b-0 md:border-l-2 hover:bg-lightNavy hover:text-primaryGreen transition-all duration-200 ${index === selectedTab ? 'bg-lightNavy border-primaryGreen text-primaryGreen' : 'bg-transparent border-transparent text-darkSlate'}`}
+              className={`px-5 py-2 w-full text-start hover:bg-lightNavy hover:text-slate-100 transition-all duration-200 cursor-pointer ${index === selectedTab ? 'bg-lightNavy text-slate-100' : 'bg-transparent text-black'}`}
               onClick={() => setSelectedTab(index)}
             >{exp.tabName}</button>
           </li>

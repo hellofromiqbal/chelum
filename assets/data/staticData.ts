@@ -1,6 +1,14 @@
-import Pokemon from '@/assets/images/projects/pokemon.png';
-import Sphere from '@/assets/images/projects/sphere.png';
-import Movosite from '@/assets/images/projects/movosite.jpg';
+import LazeezSpice from '@/assets/images/products/product_lazeez_spice2.webp';
+import TebaloiCrunch from '@/assets/images/products/product_tebaloi_crunch2.webp';
+import SagokPearl from '@/assets/images/products/product_sagok_pearl2.webp';
+import Blackpeppermint from '@/assets/images/products/product_blackpepper_mint2.webp';
+import TiongDelite from '@/assets/images/products/product_tiong_delite2.webp';
+import DubaiChewyCookies from '@/assets/images/products/dubai_chewy_cookies.jpg';
+import BeHisPralineChocolate from '@/assets/images/products/behis_praline_chocolate.jpg';
+import ChocolateDatesWithAlmond from '@/assets/images/products/chocolate_dates_with_almond.jpg';
+// import Pokemon from '@/assets/images/projects/pokemon.png';
+// import Sphere from '@/assets/images/projects/sphere.png';
+// import Movosite from '@/assets/images/projects/movosite.jpg';
 
 export const staticData = {
   header: {
@@ -75,80 +83,63 @@ export const staticData = {
       ]
     }
   ],
-  projects: [
+  products: [
     {
       featured: true,
-      title: 'Pokemon App',
-      description: 'A web app to present complete Pokemon data. View information and characteristics of your favorite Pokemon in more detail. Like and save your favorite pokemon.',
-      imgUrl: Pokemon,
-      technologies: [
-        'Next.js',
-        'TypeScript',
-        'Tailwind CSS',
-      ],
-      links: [ "https://github.com/hellofromiqbal/pokemon-app", "https://pokemon-app-gray-beta.vercel.app/" ]
+      title: 'Lazeez Spice',
+      description: 'An exotic blend of aromatic spices meets rich chocolate, inspired by traditional Malaysian flavors. A bold and warming experience.',
+      imgUrl: LazeezSpice,
+      price: 6.3,
     },
     {
       featured: true,
-      title: 'Sphere',
-      description: 'A web application that presents a variety of current articles. Similar to medium.com. See the latest articles on various topics from users, by users and for users. Create an account, follow other user accounts, like and archive articles and more.',
-      imgUrl: Sphere,
-      technologies: [
-        'React.js',
-        'Node.js',
-        'Express.js',
-        'MongoDB',
-        'Tailwind CSS'
-      ],
-      links: [ "https://github.com/hellofromiqbal/sphere-client", "https://sphere-client.vercel.app/home" ]
+      title: 'Tebaloi Crunch',
+      description: 'A delightful fusion of traditional Malaysian Tebaloi biscuits with premium dark chocolate, creating a perfect balance of crunch and smoothness.',
+      imgUrl: TebaloiCrunch,
+      price: 6.3,
     },
     {
       featured: true,
-      title: 'Movosite',
-      description: 'A website that provides information about millions of films and television programs as well as their cast and crew. The name is an acronym for Movie Site.',
-      imgUrl: Movosite,
-      technologies: [
-        'React.js',
-        'Tailwind CSS'
-      ],
-      links: [ "https://github.com/hellofromiqbal/movostore", "https://movosite.vercel.app/" ]
+      title: 'Sagok Pearl',
+      description: 'Infused with delicate sago pearls, this creation offers a unique texture that celebrates Malaysian heritage with every bite.',
+      imgUrl: SagokPearl,
+      price: 6.3,
+    },
+    {
+      featured: true,
+      title: 'Blackpeppermint',
+      description: "A sophisticated combination of black pepper's subtle heat and refreshing peppermint, balanced with smooth chocolate for an unforgettable taste.",
+      imgUrl: Blackpeppermint,
+      price: 6.3,
+    },
+    {
+      featured: true,
+      title: 'Tiong Delite',
+      description: 'A luxurious Sarawak chocolate creation that embodies the essence of Malaysian craftsmanship with rich, indulgent flavors.',
+      imgUrl: TiongDelite,
+      price: 6.3,
     },
     {
       featured: false,
-      title: 'WeSave',
-      description: 'An example landing page website for a cybersecurity company.',
-      imgUrl: "",
-      technologies: [
-        'React.js',
-        'Tailwind CSS',
-      ],
-      links: [ "https://github.com/hellofromiqbal/wesave", "https://wesave.vercel.app/" ]
+      title: 'Dubai Chewy Cookies',
+      description: 'The most viral soft chewy crunchy with Pistachio filling “Melt-in-your-mouth”. Brings another level of sensation as you eat this cookie especially with your beloved ones.',
+      imgUrl: DubaiChewyCookies,
+      price: 9,
+      piece: true,
     },
     {
       featured: false,
-      title: 'Nexus',
-      description: 'A social media application with several features such as creating a post, liking a post, making account profile changes and more.',
-      imgUrl: "",
-      technologies: [
-        'Next.js',
-        'Tailwind CSS',
-        'MongoDB',
-      ],
-      links: [ "https://github.com/hellofromiqbal/nexus", "https://nexus-socialmedia.vercel.app/" ]
+      title: 'BeHis Praline Chocolate',
+      description: "Inspired by the Land of the Hornbill's history and mythical legends, BeHis is a reminder to the lasting cultural legacy that has shaped Sarawak to this day. Yummy taste.",
+      imgUrl: BeHisPralineChocolate,
+      price: 30,
     },
     {
       featured: false,
-      title: 'MyStore',
-      description: 'An e-commerce web application. Create an account, make order and do payment. An admin can add new items, update invoices and more.',
-      imgUrl: "",
-      technologies: [
-        'React.js',
-        'Node.js',
-        'Express.js',
-        'MongoDB',
-        'Tailwind CSS'
-      ],
-      links: [ "https://github.com/hellofromiqbal/mygrocery", "https://github.com/hellofromiqbal/mygrocery" ]
+      title: 'Chocolate Dates with Almond',
+      description: "Dates with almond filling and coated with CHELUM signature chocolate. Handcrafted perfectly with consistent and bold flavor that would satisfy your apetite.",
+      imgUrl: ChocolateDatesWithAlmond,
+      price: 6.3,
     }
   ],
   contact: {

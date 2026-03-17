@@ -15,17 +15,17 @@ export type SectionTitleProps = {
 };
 
 // Featured Project Card
-export type ProjectType = {
+export type ProductType = {
   featured: boolean;
   title: string;
   description: string;
   imgUrl: string | StaticImageData;
-  technologies: string[];
-  links: string[];
+  price: number;
+  piece?: boolean;
 }
 
-export type FeaturedProjectCardProps = {
-  project: ProjectType;
+export type SignatureProductCard = {
+  product: ProductType;
   reversed: boolean;
 };
 
