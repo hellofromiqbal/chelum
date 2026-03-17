@@ -6,17 +6,17 @@ export default function SocialMediaLinks({ shrinkOnMobileView }: SocialMediaLink
   return (
     <ul className='flex gap-6'>
       <li className='text-slate-100 hover:text-primaryGreen transition-all duration-300'>
-        <Link href={"https://www.github.com/hellofromiqbal"} target='_blank'>
+        <Link href={"https://web.facebook.com/chelumsarawakchocolate"} target='_blank'>
           <FiGithub className={`${shrinkOnMobileView && 'size-6.25'} md:size-6.25`}/>
         </Link>
       </li>
       <li className='text-slate-100 hover:text-primaryGreen transition-all duration-300'>
-        <Link href={"https://www.instagram.com/hellofromiqbal"} target='_blank'>
+        <Link href={"https://www.instagram.com/my.chelum/"} target='_blank'>
           <FiInstagram className={`${shrinkOnMobileView && 'size-6.25'} md:size-6.25`}/>
         </Link>
       </li>
       <li className='text-slate-100 hover:text-primaryGreen transition-all duration-300'>
-        <Link href={"https://www.linkedin.com/in/hellofromiqbal"} target='_blank'>
+        <Link href={"https://www.tiktok.com/@chelumchocolate"} target='_blank'>
           <FiLinkedin className={`${shrinkOnMobileView && 'size-6.25'} md:size-6.25`}/>
         </Link>
       </li>
