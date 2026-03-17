@@ -8,8 +8,8 @@ import { motionProps } from '@/helper/framerMotion';
 
 export default function Jumbotron() {
   return (
-    <section id='jumbotron' className="-mt-16 min-h-screen flex bg-[url('/chelum_display2.png')] bg-cover bg-no-repeat">
-      <div className="absolute inset-0 bg-navy/70"></div>
+    <section id='jumbotron' className="-mt-16 min-h-screen 2xl:min-h-[80vh] flex bg-[url('/chelum_display2.png')] bg-cover bg-no-repeat">
+      <div className="absolute inset-0 bg-navy/70 2xl:h-[80vh]"></div>
       <div className="flex flex-col justify-end md:justify-center gap-6 max-w-6xl mx-auto px-5 md:px-24 lg:px-0 lg:w-1/2 pb-10 md:pb-0">
         {/* <motion.h1
           className={`${firaCode.className} text-primaryGreen relative`}

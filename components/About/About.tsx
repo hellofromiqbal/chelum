@@ -2,7 +2,7 @@
 
 // import Link from 'next/link';
 import Image from 'next/image';
-import myPhoto1 from "@/assets/images/pp2.jpg";
+import lazeezSpice from "@/assets/images/products/product_lazeezspice.webp";
 import SectionTitle from '../SectionTitle/SectionTitle';
 import { staticData } from '@/assets/data/staticData';
 // import { FaCaretRight } from "react-icons/fa";
@@ -38,14 +38,14 @@ export default function About() {
                 ))}
               </ul> */}
             </div>
-            <div className='col-span-12 md:col-span-0 md:col-start-8 md:col-end-13 lg:col-start-9 lg:col-end-13 flex justify-center relative'>
+            <div className='col-span-12 md:col-span-0 md:col-start-8 md:col-end-13 lg:col-start-9 lg:col-end-13 flex justify-center relative z-1'>
               <div className='group relative md:absolute top-0 left-0 w-max h-max'>
                 <div
-                  className="w-62.5 md:w-70 lg:w-75 h-62.5 md:h-70 lg:h-75 md:absolute group-hover:-mt-2 md:group-hover:-mt-1.25 group-hover:mb-2 md:group-hover:mb-1.25 group-hover:-ml-2 md:group-hover:-ml-1.25 transition-all duration-300 rounded-md overflow-hidden"
+                  className="w-62.5 md:w-70 lg:w-75 h-62.5 md:h-70 lg:h-75 md:absolute group-hover:-mt-2 md:group-hover:-mt-1.25 group-hover:mb-2 md:group-hover:mb-1.25 group-hover:-ml-2 md:group-hover:-ml-1.25 transition-all duration-300 rounded-md overflow-auto"
                 >
-                  <Image src={myPhoto1} alt='myPhoto' className='absolute z-10 object-cover w-full h-full filter rounded-md hover:filter-none transition-all duration-300'/>
+                  <Image src={lazeezSpice} alt='myPhoto' className='absolute object-cover w-full h-full filter rounded-md hover:filter-none transition-all duration-300'/>
                 </div>
-                <span className="absolute top-3 left-3 w-62.5 md:w-70 lg:w-75 h-62.5 md:h-70 lg:h-75 border-2 border-gray-300 rounded-md transition-all duration-300 group-hover:mt-px group-hover:ml-px md:group-hover:mt-0.75 md:group-hover:ml-0.75"></span>
+                <span className="absolute -z-1 top-3 left-3 w-62.5 md:w-70 lg:w-75 h-62.5 md:h-70 lg:h-75 border-2 border-gray-300 rounded-md transition-all duration-300 group-hover:mt-px group-hover:ml-px md:group-hover:mt-0.75 md:group-hover:ml-0.75"></span>
               </div>
             </div>
           </div>
