@@ -11,7 +11,7 @@ import { firaCode } from '@/libs/font';
 
 export default function Projects() {
   return (
-    <section id='projects' className="py-10 md:pt-10 md:pb-20 flex flex-col gap-6">
+    <section id='projects' className="py-10 md:pt-10 md:pb-20 flex flex-col gap-6 max-w-6xl mx-auto px-5 md:px-24 lg:px-20">
       <motion.div className='relative' {...motionProps(50, .3, .3)}>
         <SectionTitle number='03.' title='Projects'/>
       </motion.div>

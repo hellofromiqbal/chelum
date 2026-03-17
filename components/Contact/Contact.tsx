@@ -8,7 +8,7 @@ import { firaCode } from '@/libs/font';
 
 export default function Contact() {
   return (
-    <section id='contact' className="h-[calc(100vh-9rem)] md:h-[calc(85vh-9rem)] lg:h-[calc(100vh-9rem)] flex flex-col justify-center">
+    <section id='contact' className="h-[calc(100vh-9rem)] md:h-[calc(85vh-9rem)] lg:h-[calc(100vh-9rem)] flex flex-col justify-center max-w-6xl mx-auto px-5 md:px-24 lg:px-20">
       <motion.div className='flex flex-col gap-5 items-center relative' {...motionProps(50, .3, .3)}>
         <p className={`${firaCode.className} text-primaryGreen`}>{staticData.contact.preTitle}</p>
         <h2 className='text-lightSlate text-4xl md:text-5xl font-bold'>{staticData.contact.title}</h2>

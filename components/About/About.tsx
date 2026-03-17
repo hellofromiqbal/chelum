@@ -12,7 +12,7 @@ import { firaCode } from '@/libs/font';
 
 export default function About() {
   return (
-    <section id='about' className="py-10 md:pt-10 md:pb-20" >
+    <section id='about' className="py-10 md:pt-10 md:pb-20 max-w-6xl mx-auto px-5 md:px-24 lg:px-20" >
       <motion.div className='flex flex-col gap-6 relative' {...motionProps(50, .5, .3)}>
         <SectionTitle number={'01.'} title='About'/>
         <div className='grid grid-cols-12 gap-y-10 md:gap-y-0'>
